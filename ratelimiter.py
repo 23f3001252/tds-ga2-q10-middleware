@@ -3,7 +3,7 @@ import time
 from starlette.middleware.base import BaseHTTPMiddleware
 from fastapi.responses import JSONResponse
 
-from app.storage import client_requests
+from storage import client_requests
 
 
 class RateLimitMiddleware(BaseHTTPMiddleware):
