@@ -1,8 +1,8 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.middleware import RequestContextMiddleware
-from app.ratelimiter import RateLimitMiddleware
+from middleware import RequestContextMiddleware
+from ratelimiter import RateLimitMiddleware
 
 app = FastAPI(
     title="Middleware Assignment API"
