@@ -12,7 +12,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://app-xyzh24.example.com",
-        "https://exam.example.com"   # Replace with the actual exam page origin
+        "https://exam.sanand.workers.dev/tds-2026-05-ga2"   # Replace with the actual exam page origin
     ],
     allow_credentials=True,
     allow_methods=["*"],
